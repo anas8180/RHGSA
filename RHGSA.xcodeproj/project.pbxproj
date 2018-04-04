@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405C7656986790341ED5058C /* Pods_RHGSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58DA39AD058048046CA4DD0 /* Pods_RHGSA.framework */; };
+		9C13294320736800004CDA11 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13294220736800004CDA11 /* DownloadService.swift */; };
+		9C13294520736CDB004CDA11 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13294420736CDB004CDA11 /* MainViewController.swift */; };
+		9C3EE1DE2070B9CF006B16A8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EE1DD2070B9CF006B16A8 /* SplashViewController.swift */; };
+		9C3EE1E22070BCDE006B16A8 /* Vars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EE1E12070BCDE006B16A8 /* Vars.swift */; };
 		9C6ED730206D03F400F6EDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED72F206D03F400F6EDBC /* AppDelegate.swift */; };
-		9C6ED732206D03F400F6EDBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED731206D03F400F6EDBC /* ViewController.swift */; };
 		9C6ED735206D03F400F6EDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6ED733206D03F400F6EDBC /* Main.storyboard */; };
 		9C6ED738206D03F400F6EDBC /* RHGSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED736206D03F400F6EDBC /* RHGSA.xcdatamodeld */; };
 		9C6ED73A206D03F400F6EDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6ED739206D03F400F6EDBC /* Assets.xcassets */; };
 		9C6ED73D206D03F400F6EDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6ED73B206D03F400F6EDBC /* LaunchScreen.storyboard */; };
+		9C6ED747206D04AD00F6EDBC /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED746206D04AD00F6EDBC /* Dummy.m */; };
+		9C6ED755206D04FD00F6EDBC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED74A206D04FC00F6EDBC /* FMDatabaseAdditions.m */; };
+		9C6ED756206D04FD00F6EDBC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED74D206D04FD00F6EDBC /* FMResultSet.m */; };
+		9C6ED757206D04FD00F6EDBC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED74E206D04FD00F6EDBC /* FMDatabasePool.m */; };
+		9C6ED758206D04FD00F6EDBC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED751206D04FD00F6EDBC /* FMDatabase.m */; };
+		9C6ED759206D04FD00F6EDBC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED754206D04FD00F6EDBC /* FMDatabaseQueue.m */; };
+		9C6ED760206D12E300F6EDBC /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6ED75F206D12E300F6EDBC /* DBManager.swift */; };
+		9C7062E32070A48800490617 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7062E22070A48800490617 /* GalleryView.swift */; };
+		9CA304B62073AEB300BD3375 /* Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA304B52073AEB300BD3375 /* Modals.swift */; };
+		9CB3EF512072526700CF2C0E /* rhgsa.db in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3EF502072526700CF2C0E /* rhgsa.db */; };
+		9CB7018C207205BE00FC8257 /* FileDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7018B207205BE00FC8257 /* FileDownload.swift */; };
+		9CB7018E207206B000FC8257 /* CheckUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7018D207206B000FC8257 /* CheckUpdate.swift */; };
+		9CB70190207207AB00FC8257 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7018F207207AB00FC8257 /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C13294220736800004CDA11 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		9C13294420736CDB004CDA11 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9C3EE1DD2070B9CF006B16A8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		9C3EE1E12070BCDE006B16A8 /* Vars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vars.swift; sourceTree = "<group>"; };
 		9C6ED72C206D03F400F6EDBC /* RHGSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHGSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6ED72F206D03F400F6EDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C6ED731206D03F400F6EDBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C6ED734206D03F400F6EDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C6ED737206D03F400F6EDBC /* RHGSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RHGSA.xcdatamodel; sourceTree = "<group>"; };
 		9C6ED739206D03F400F6EDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C6ED73C206D03F400F6EDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C6ED73E206D03F400F6EDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6ED744206D04AD00F6EDBC /* RHGSA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHGSA-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C6ED745206D04AD00F6EDBC /* Dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
+		9C6ED746206D04AD00F6EDBC /* Dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
+		9C6ED74A206D04FC00F6EDBC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9C6ED74B206D04FC00F6EDBC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9C6ED74C206D04FC00F6EDBC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9C6ED74D206D04FD00F6EDBC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9C6ED74E206D04FD00F6EDBC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9C6ED74F206D04FD00F6EDBC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9C6ED750206D04FD00F6EDBC /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9C6ED751206D04FD00F6EDBC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9C6ED752206D04FD00F6EDBC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9C6ED753206D04FD00F6EDBC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9C6ED754206D04FD00F6EDBC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9C6ED75F206D12E300F6EDBC /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		9C7062E22070A48800490617 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		9CA304B52073AEB300BD3375 /* Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modals.swift; sourceTree = "<group>"; };
+		9CB3EF502072526700CF2C0E /* rhgsa.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhgsa.db; sourceTree = "<group>"; };
+		9CB7018B207205BE00FC8257 /* FileDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownload.swift; sourceTree = "<group>"; };
+		9CB7018D207206B000FC8257 /* CheckUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUpdate.swift; sourceTree = "<group>"; };
+		9CB7018F207207AB00FC8257 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		B31251C6F79E8A7AEA628444 /* Pods-RHGSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHGSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-RHGSA/Pods-RHGSA.release.xcconfig"; sourceTree = "<group>"; };
+		C58DA39AD058048046CA4DD0 /* Pods_RHGSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RHGSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D838BB2999FABD7C046757A4 /* Pods-RHGSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHGSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RHGSA/Pods-RHGSA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405C7656986790341ED5058C /* Pods_RHGSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20AD47A873CBD221147599A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D838BB2999FABD7C046757A4 /* Pods-RHGSA.debug.xcconfig */,
+				B31251C6F79E8A7AEA628444 /* Pods-RHGSA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E2BCEB9F64386E6962090B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C58DA39AD058048046CA4DD0 /* Pods_RHGSA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C3EE1DF2070BA14006B16A8 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				9CB7018D207206B000FC8257 /* CheckUpdate.swift */,
+				9C13294220736800004CDA11 /* DownloadService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		9C3EE1E02070BC36006B16A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C3EE1E12070BCDE006B16A8 /* Vars.swift */,
+				9CB7018B207205BE00FC8257 /* FileDownload.swift */,
+				9CB7018F207207AB00FC8257 /* Download.swift */,
+				9CA304B52073AEB300BD3375 /* Modals.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9C6ED723206D03F400F6EDBC = {
 			isa = PBXGroup;
 			children = (
 				9C6ED72E206D03F400F6EDBC /* RHGSA */,
 				9C6ED72D206D03F400F6EDBC /* Products */,
+				20AD47A873CBD221147599A8 /* Pods */,
+				7E2BCEB9F64386E6962090B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +140,75 @@
 		9C6ED72E206D03F400F6EDBC /* RHGSA */ = {
 			isa = PBXGroup;
 			children = (
+				9CA304B02073A28400BD3375 /* Other Views */,
+				9C3EE1E02070BC36006B16A8 /* Model */,
+				9C3EE1DF2070BA14006B16A8 /* WebService */,
+				9C7062E12070A46000490617 /* Custom Cell */,
+				9C6ED748206D04B400F6EDBC /* DataBase */,
+				9C7062E020709C2600490617 /* ViewControllers */,
 				9C6ED72F206D03F400F6EDBC /* AppDelegate.swift */,
-				9C6ED731206D03F400F6EDBC /* ViewController.swift */,
+				9C6ED745206D04AD00F6EDBC /* Dummy.h */,
+				9C6ED746206D04AD00F6EDBC /* Dummy.m */,
 				9C6ED733206D03F400F6EDBC /* Main.storyboard */,
 				9C6ED739206D03F400F6EDBC /* Assets.xcassets */,
 				9C6ED73B206D03F400F6EDBC /* LaunchScreen.storyboard */,
 				9C6ED73E206D03F400F6EDBC /* Info.plist */,
 				9C6ED736206D03F400F6EDBC /* RHGSA.xcdatamodeld */,
+				9C6ED744206D04AD00F6EDBC /* RHGSA-Bridging-Header.h */,
 			);
 			path = RHGSA;
+			sourceTree = "<group>";
+		};
+		9C6ED748206D04B400F6EDBC /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				9C6ED749206D04BC00F6EDBC /* FMDB */,
+				9C6ED75F206D12E300F6EDBC /* DBManager.swift */,
+				9CB3EF502072526700CF2C0E /* rhgsa.db */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		9C6ED749206D04BC00F6EDBC /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9C6ED74B206D04FC00F6EDBC /* FMDatabase.h */,
+				9C6ED751206D04FD00F6EDBC /* FMDatabase.m */,
+				9C6ED752206D04FD00F6EDBC /* FMDatabaseAdditions.h */,
+				9C6ED74A206D04FC00F6EDBC /* FMDatabaseAdditions.m */,
+				9C6ED74F206D04FD00F6EDBC /* FMDatabasePool.h */,
+				9C6ED74E206D04FD00F6EDBC /* FMDatabasePool.m */,
+				9C6ED753206D04FD00F6EDBC /* FMDatabaseQueue.h */,
+				9C6ED754206D04FD00F6EDBC /* FMDatabaseQueue.m */,
+				9C6ED750206D04FD00F6EDBC /* FMDB.h */,
+				9C6ED74C206D04FC00F6EDBC /* FMResultSet.h */,
+				9C6ED74D206D04FD00F6EDBC /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		9C7062E020709C2600490617 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C3EE1DD2070B9CF006B16A8 /* SplashViewController.swift */,
+				9C13294420736CDB004CDA11 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C7062E12070A46000490617 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9C7062E22070A48800490617 /* GalleryView.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		9CA304B02073A28400BD3375 /* Other Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C6ED741206D03F400F6EDBC /* Build configuration list for PBXNativeTarget "RHGSA" */;
 			buildPhases = (
+				01059027509A8DED5DE895CF /* [CP] Check Pods Manifest.lock */,
 				9C6ED728206D03F400F6EDBC /* Sources */,
 				9C6ED729206D03F400F6EDBC /* Frameworks */,
 				9C6ED72A206D03F400F6EDBC /* Resources */,
+				F68325C398407DEF518D338D /* [CP] Embed Pods Frameworks */,
+				CFC83088EA64576ADAB130E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +246,7 @@
 				TargetAttributes = {
 					9C6ED72B206D03F400F6EDBC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,20 +276,90 @@
 			files = (
 				9C6ED73D206D03F400F6EDBC /* LaunchScreen.storyboard in Resources */,
 				9C6ED73A206D03F400F6EDBC /* Assets.xcassets in Resources */,
+				9CB3EF512072526700CF2C0E /* rhgsa.db in Resources */,
 				9C6ED735206D03F400F6EDBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01059027509A8DED5DE895CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RHGSA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC83088EA64576ADAB130E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RHGSA/Pods-RHGSA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68325C398407DEF518D338D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RHGSA/Pods-RHGSA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RHGSA/Pods-RHGSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C6ED728206D03F400F6EDBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6ED732206D03F400F6EDBC /* ViewController.swift in Sources */,
+				9C6ED756206D04FD00F6EDBC /* FMResultSet.m in Sources */,
+				9CB70190207207AB00FC8257 /* Download.swift in Sources */,
 				9C6ED738206D03F400F6EDBC /* RHGSA.xcdatamodeld in Sources */,
+				9C13294320736800004CDA11 /* DownloadService.swift in Sources */,
+				9CB7018C207205BE00FC8257 /* FileDownload.swift in Sources */,
+				9C6ED747206D04AD00F6EDBC /* Dummy.m in Sources */,
+				9C6ED757206D04FD00F6EDBC /* FMDatabasePool.m in Sources */,
+				9CA304B62073AEB300BD3375 /* Modals.swift in Sources */,
+				9C6ED760206D12E300F6EDBC /* DBManager.swift in Sources */,
 				9C6ED730206D03F400F6EDBC /* AppDelegate.swift in Sources */,
+				9C6ED755206D04FD00F6EDBC /* FMDatabaseAdditions.m in Sources */,
+				9C6ED758206D04FD00F6EDBC /* FMDatabase.m in Sources */,
+				9C6ED759206D04FD00F6EDBC /* FMDatabaseQueue.m in Sources */,
+				9CB7018E207206B000FC8257 /* CheckUpdate.swift in Sources */,
+				9C3EE1E22070BCDE006B16A8 /* Vars.swift in Sources */,
+				9C13294520736CDB004CDA11 /* MainViewController.swift in Sources */,
+				9C7062E32070A48800490617 /* GalleryView.swift in Sources */,
+				9C3EE1DE2070B9CF006B16A8 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +494,18 @@
 		};
 		9C6ED742206D03F400F6EDBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D838BB2999FABD7C046757A4 /* Pods-RHGSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RHGSA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ntde.RHGSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RHGSA/RHGSA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +513,17 @@
 		};
 		9C6ED743206D03F400F6EDBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31251C6F79E8A7AEA628444 /* Pods-RHGSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RHGSA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ntde.RHGSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RHGSA/RHGSA-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
